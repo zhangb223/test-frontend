@@ -1,0 +1,24 @@
+{
+    "name": "aanntom/magento2-frontend",
+    "description": "Test frontend module for magento 2",
+    "version": "0.1.0",
+    "require": {
+        "magento/framework": "^102.0 || ^103.0",
+        "magento/module-sales": "^102.0 || ^103.0",
+        "magento/module-checkout": "^100.3",
+        "magento/module-payment": "^100.3",
+        "magento/magento-composer-installer": "^0.3.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Antom\\Frontend\\": ""
+        }
+    }
+}
